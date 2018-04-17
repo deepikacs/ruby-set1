@@ -31,8 +31,8 @@
 
 # Datetime
 # 1. take input form user in format and give day of the week as output 
-# input "sep, 10, 2018"
-# output "Monday"
+# sample input: "sep, 10, 2018"
+# output: "Monday"
 
 
 # Array
