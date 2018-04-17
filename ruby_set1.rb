@@ -24,29 +24,29 @@
 #         1
 #         Please enter value a 
 #         12
-#         Please enter value a 
+#         Please enter value b 
 #         12
 #         Result is 24
 
 
-# Datetime
+# 
 # 1. take input form user in format and give day of the week as output 
 # sample input: "sep, 10, 2018"
 # output: "Monday"
 
 
-# Array
+# 
 # User should be able to enter the string
 # If entered character is uppercase, convert to lowercase and vice versa
 # Ex: qWInix TechnOLOgy -> QwiNIX tECHNoloGY
 
 
-# File IO
+# 
 # There is a file "hello.txt" with 2 lines of data. 
 # write a program to take text input from user and update the existing file. (the file should contain both old and new data)
 # then display all content from file
 
-# OOPS
+# 
 # Lord vishnu has different avatars, achieve a way to display atleast 3 avatar names in a polymorphic way
 # examples: Matsya, kurma, Narashima.
 # output
@@ -54,7 +54,7 @@
 # kurma, I am tortoise
 # Narashima, I am lion
 
-# Encapsulation
+# 
 #  1. Give a privacy setting for your whatsapp DP
 #  2. Setting
 #       Everybody can see my DP 
