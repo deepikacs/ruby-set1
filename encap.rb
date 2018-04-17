@@ -28,5 +28,5 @@ end
 user=User.new
 user.visible_all
 user.method
-user.visible_me
+user.visible_me rescue p "private method not access here"
 

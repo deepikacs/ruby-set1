@@ -5,7 +5,7 @@
 # open('hello.txt', "a") { |f| f << 'I am appended string' } 
 # open('hello.txt', "a") { |f| f << 'I am appended string1' } 
 puts "enter the text"
-@a=gets.chomp
+@a=gets
 		# aFile = File.new("hello.txt", "r+")
 		# if aFile
 		#    b = aFile.syswrite(@a)
