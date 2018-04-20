@@ -15,38 +15,83 @@
 #         12
 #         Result is 24
 
+
+
 module Mathoperation
 	def addition
+		begin
 		puts "enter  value a "
-		@a=gets.to_i
+		@a=Integer(gets)
 		puts "enter  value b "
-		@b=gets.to_i
+		@b=Integer(gets)
 		@c=@a+@b
 		puts "result is #{@c}"
+rescue
+
+	puts "please enter the valid inputs"
+	retry
+	puts "Control back to the begin"
+# 	puts "enter  value a "
+# 		@a=Integer(gets)
+# 		puts "enter  value b "
+# 		@b=Integer(gets)
+# 		@c=@a+@b
+# 		puts "result is #{@c}"
+	end
 	end
 	def subtraction
+		begin
 		puts "enter  value a "
-		@a=gets.to_i
+		@a=Integer(gets)
 		puts "enter  value b "
-		@b=gets.to_i
+		@b=Integer(gets)
+		@c=@a-@b
+		puts "result is #{@c}"
+rescue
+	puts "please enter the valid inputs"
+	puts "enter  value a "
+		@a=Integer(gets)
+		puts "enter  value b "
+		@b=Integer(gets)
 		@c=@a-@b
 		puts "result is #{@c}"
 	end
+	end
 	def multiplication
+		begin
 		puts "enter  value a "
-		@a=gets.to_i
+		@a=Integer(gets)
 		puts "enter  value b "
-		@b=gets.to_i
+		@b=Integer(gets)
+		@c=@a*@b
+		puts "result is #{@c}"
+rescue
+	puts "please enter the valid inputs"
+	puts "enter  value a "
+		@a=Integer(gets)
+		puts "enter  value b "
+		@b=Integer(gets)
 		@c=@a*@b
 		puts "result is #{@c}"
 	end
+	end
 	def division
+		begin
 		puts "enter  value a "
-		@a=gets.to_i
+		@a=Integer(gets)
 		puts "enter  value b "
-		@b=gets.to_i
+		@b=Integer(gets)
 		@c=@a/@b
 		puts "result is #{@c}"
+rescue
+	puts "please enter the valid inputs"
+	puts "enter  value a "
+		@a=Integer(gets)
+		puts "enter  value b "
+		@b=Integer(gets)
+		@c=@a/@b
+		puts "result is #{@c}"
+	end
 	end
 end
 class Arthmetic
@@ -73,3 +118,43 @@ class Arthmetic
 end
 obj=Arthmetic.new
 obj.method
+
+
+
+
+# module Mathoperation
+# puts "please select mathamatics operation
+#          1.addition
+#          2.subtration
+#          3.multiplication
+#          4.Division"
+#     @val=Integer(gets)
+#     case @val
+#   when 1..1 
+#   	# def addition
+#   	begin
+# 		puts "enter  value a "
+# 		@a=Integer(gets)
+# 		puts "enter  value b "
+# 		@b=Integer(gets)
+# 		@c=@a+@b
+# 		puts "result is #{@c}"
+# rescue
+# 	puts "please enter the valid inputs"
+# 	puts "enter  value a "
+# 		@a=Integer(gets)
+# 		puts "enter  value b "
+# 		@b=Integer(gets)
+# 		@c=@a+@b
+# 		puts "result is #{@c}"
+# 	end
+# 	when 2..2 
+# 		# def subtraction
+# 		puts "enter  value a "
+# 		@a=Integer(gets)
+# 		puts "enter  value b "
+# 		@b=gets.to_s
+# 		@c=@a-@b
+# 		puts "result is #{@c}"
+# 	end
+# end

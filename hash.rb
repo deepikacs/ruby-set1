@@ -11,6 +11,12 @@
 # }
 
 a={"box1"=>10,"box2"=>20,"box3"=>50,"box4"=>60,"box5"=>80,"box6"=>30,"box7"=>90,"box8"=>40,"box9"=>70,"box10"=>100}
+# p a.sort_by{ |k,v| v }
+# p x=a.key(a.values.max)
+# p y=a.key(a.values.min)
+# # p z={"#{x}"=>"#{y}"}
+# p z=[x,y]
+# p hash = Hash[.collect { |item| [item, ""] } ]
 p a.sort_by{ |k,v| v }
-p a.key(a.values.max)
-p a.key(a.values.min)
+p a.select{|x,y| y == a.values.max }
+p a.select{|x,y| y == a.values.min }

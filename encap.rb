@@ -7,11 +7,11 @@
 class Whatsapp
 	def visible_all
 		puts "Everybody can see my DP "
-		visible_me
+		visible_me("Only Me")
 	end
 	private
-	def visible_me
-		puts "Only Me"
+	def visible_me(message)
+		puts message 
 	end
 	protected
 	def visible_contact
@@ -23,7 +23,7 @@ class User < Whatsapp
 		visible_contact
 
 	end
-	# Whatsapp.new. visible_me
+	# Whatsapp.new.visible_me
 end
 user=User.new
 user.visible_all
